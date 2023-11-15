@@ -1,6 +1,8 @@
 public class Metodos {
     public static void main(String[] args) {
-        ativarSoneca();
+        //ativarSoneca();
+        String msgAlarme = agendarAlarme(12, 30);
+        System.out.println(msgAlarme);
     }
 
     /*
@@ -12,4 +14,7 @@ public class Metodos {
         System.out.println("Soneca ativada");
     }
 
+    static String agendarAlarme(int hora, int min) {
+        return ("Seu alarme foi agendado às " + hora +":"+ min);
+    }
 }
