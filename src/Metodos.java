@@ -1,6 +1,6 @@
 public class Metodos {
     public static void main(String[] args) {
-        
+        ativarSoneca();
     }
 
     /*
@@ -8,7 +8,7 @@ public class Metodos {
      * <bloco de comandos>
      * }
      */
-    void ativarSoneca() {
+    static void ativarSoneca() {
         System.out.println("Soneca ativada");
     }
 
