@@ -1,3 +1,4 @@
+package br.com.fantomb.relogio;
 public class Despertador {
     int horas;
     int min;
