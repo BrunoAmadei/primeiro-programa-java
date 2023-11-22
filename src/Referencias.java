@@ -1,6 +1,12 @@
 public class Referencias {
     // Referencias armazenam estados e comportamentos
-    public static void main(String[] args) {
+    String tipo;
 
+    public Referencias(String tipo) {
+        this.tipo = tipo;
+    }
+
+    void citarReferencia(){
+        System.out.println("Referência referenciada");
     }
 }
